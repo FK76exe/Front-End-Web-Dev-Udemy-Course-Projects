@@ -1,0 +1,22 @@
+{
+    "name": "My First Extension",
+    "description": "Shows a menu item",
+    "version": "0.3",
+    "permissions":["activeTab","contextMenus"],
+    "icons": {
+        "16":"16.png",
+        "48":"48.png",
+        "64":"64.png",
+        "128":"128.png"
+    },
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "content_scripts":[
+        {
+            "matches":["https://www.google.ca/*","*://www.youtube.com/*"],
+            "js":["index.js"]
+        }
+    ],
+    "manifest_version" : 2
+}
