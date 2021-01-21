@@ -4,7 +4,7 @@ Projects used in the Front End Udemy Course I did
 
 https://www.udemy.com/course/front-end-web-development/
 
-The follwing projects were discussed in this course:
+The following projects were created in this course:
 
 Pipboy - a website that is modelled after the pipboy ui in Fallout. This required HTML, CSS, and Bootstrap.
 Chrome Extension 1 - first part of the chrome extension project (was a bonus). Required Javascript.
